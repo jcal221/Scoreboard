@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .score-container,
+  .fouls-shot-container,
+  .bonus-container,
+  .poss-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+  
+  }
+  
+  .main-container {
+    background-color: black;
+    border: 10px solid purple;
+    border-radius: 40px;
+    margin: 40px;
+    box-shadow: 0px 0px 40px yellow;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #basketball-scoreboard {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  @font-face {
+    font-family: "Digital Readout";
+    src: url("files/TrueType/SFDigitalReadout-Heavy.ttf") format("truetype");
+    /* Add other font formats if available */
+  }
+  
+  #timer,
+  #home-score,
+  #period-counter,
+  #guest-score,
+  #home-fouls,
+  #shot-clock,
+  #guest-fouls {
+    font-family: "Digital Readout", Arial, sans-serif;
+    background-color: gray;
+    background-size: cover;
+  }
+  
+  .game-time-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 155px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: yellow;
+  }
+  
+  #timer,
+  #home-score,
+  #period-counter,
+  #guest-score,
+  #home-fouls,
+  #shot-clock,
+  #guest-fouls {
+    font-size: 80px;
+    margin-top: 0px;
+    padding: 0px 4px 0px 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: gray;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px black;
+    color: yellow;
+  }
+  
+  .score-container,
+  .fouls-shot-container {
+    margin-top: -10px; /* Adjust the value to increase or decrease the spacing */
+    padding-top: 0px;
+    margin-bottom: -10px; /* Adjust the value to increase or decrease the spacing */
+    padding-bottom: 0px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  #game-clock {
+    margin-bottom: 10px;
+  }
+  
+  #home-score,
+  #period-counter,
+  #guest-score,
+  #home-fouls,
+  #shot-clock,
+  #guest-fouls {
+    font-size: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  
+  .score-container,
+  .fouls-shot-container {
+    margin-bottom: 10px;
+  }
+  
+  #shot-clock-text {
+    text-align: center;
+  }
+  
+  #reset-all {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #poss-bonus-container1,
+  #poss-bonus-container2,
+  #poss-bonus-container3,
+  #poss-bonus-container4 {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  
+  #home-container {
+    padding-right: 0px; /* Adjust the value to increase or decrease the spacing */
+    margin-right: 0px;
+  }
+  
+  #poss-bonus-container2 {
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  
+  #guest-container {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  
+  #home-container {
+    display: flex;
+  }
+  
+  #home-fouls-container,
+  #guest-fouls-container {
+    display: flex;
+  }
+  
+  #poss-bonus-container1,
+  #poss-bonus-container3 {
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  
+  #guest-container {
+    display: flex;
+  }
+  
+  #poss-bonus-container2,
+  #poss-bonus-container4 {
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+  
+  #poss1 {
+    background-color: gray;
+    width: 22px;
+    height: 22px;
+    border-radius: 40%;
+    text-shadow: 2px 2px 4px black;
+    color: yellow;
+    text-align: center;
+  }
+  
+  #bonus1 {
+    background-color: gray;
+    width: 22px;
+    height: 22px;
+    border-radius: 40%;
+    text-shadow: 2px 2px 4px black;
+    color: yellow;
+    text-align: center;
+  }
+  
+  #poss2 {
+    background-color: gray;
+    width: 22px;
+    height: 22px;
+    border-radius: 40%;
+    text-shadow: 2px 2px 4px black;
+    color: yellow;
+    text-align: center;
+  }
+  
+  #bonus2 {
+    background-color: gray;
+    width: 22px;
+    height: 22px;
+    border-radius: 40%;
+    text-shadow: 2px 2px 4px black;
+    color: yellow;
+    text-align: center;
+  }
+  
+  #new-game-btn,
+  #reset-shot-btn {
+    background-color: purple;
+    width: 100px;
+    height: 22px;
+    border-radius: 12%;
+    text-shadow: -20px -20px -40px black;
+    color: yellow;
+    text-align: center;
+  }
+  

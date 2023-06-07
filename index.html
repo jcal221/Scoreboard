@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 id="basketball-scoreboard">BASKETBALL SCOREBOARD</h1>
+      <div class="game-time-container">
+        <div id="game-time-text">
+          <h3>GAME TIME</h3>
+        </div>
+        <div id="game-clock">
+          <h2 id="timer">00:00</h2>
+        </div>
+      </div>      
+      <div class="score-container">
+        <div id="home-container">
+          <div>
+            <h3>HOME</h3>
+            <h2 id="home-score">0</h2>
+          </div>
+          <div id="poss-bonus-container1">
+            <h3 id="poss1">P</h3>  
+          </div>
+        </div>
+        <div id="period-container">
+          <h3 id="period-text">PERIOD</h3>   
+          <h2 id="period-counter">0</h2> 
+        </div>
+        <div id="guest-container">
+          <div id="poss-bonus-container2">
+            <h3 id="poss2">P</h3>  
+          </div>
+          <div>
+            <h3>GUEST</h3>
+            <h2 id="guest-score">0</h2>
+          </div>
+        </div>
+      </div>
+      <div class="fouls-shot-container">
+        <div id="home-fouls-container">
+          <div>
+            <h3>FOULS</h3>
+            <h2 id="home-fouls">0</h2>
+          </div>
+          <div id="poss-bonus-container3">
+            <h3 id="bonus1">B</h3>   
+          </div>
+        </div>
+        <div id="shot-clock-container">
+          <h3 id="shot-clock-text">SHOT</h3>
+          <h2 id="shot-clock">00</h2>
+        </div>  
+        <div id="guest-fouls-container">
+          <div id="poss-bonus-container4">
+            <h3 id="bonus2">B</h3>   
+          </div>
+          <div>
+            <h3>FOULS</h3>
+            <h2 id="guest-fouls">0</h2>
+          </div>
+        </div>
+      </div>
+      <div id="reset-all">
+        <button id="new-game-btn" onclick="resetAll()">NEW GAME</button>
+        <button id="reset-shot-btn" onclick="resetShot()">NEW SHOT</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
